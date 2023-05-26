@@ -10,45 +10,28 @@
 </head>
 
 <body>
-    <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-        <header class="sticky top-0 z-10 bg-teal-700 text-white">
-          <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
-            <h1 class="text-3xl font-medium">
-              <a href="#hero">GRIFFINS KIPTANUI</a>
-            </h1>
-            </div>
-            <div>
-                <button id="hamburger-button" class="relative h-8 w-8 cursor pointer text-3xl md:hidden">
-                    <!-- &#9776; -->
-                    <div class="absolute"></div>
-                    <div class="introduction"></div>
-                    <div class="about me"></div>
-                    <div class="mini-projects"></div>
-                    <div class="contact"></div>
-                    <div class="footer"></div>
-                </button>
-                </nav>
-            </div>
-            </section>
-            <section id="mobile-menu"
-              class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
-              <!-- <button class="text-8xl self-end px-6">
-                        &times;
-                    </button> -->
-              <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
-                <a href="#introduction" class="w-full py-6 text-center hover:opacity-90">Intro</a>
-                <a href="#about me" class="w-full py-6 text-center hover:opacity-90">About Me</a>
-                <a href="#mini-projects" class="w-full py-6 text-center hover:opacity-90">Mini-projects</a>
-                <a href="#contact" class="w-full py-6 text-center hover:opacity-90">Contact Us</a>
-                <a href="#footer" class="w-full py-6 text-center hover:opacity-90">Legal</a>
-              </nav>
-            </section>
-        </header>
+    <label class="hamburger-menu">
+        <input type="checkbox">
+    </label>
+    <aside class="sidebar">
+        <nav>
+            <div>Intro</div>
+            <div>Mini-projects</div>
+            <div>About Me</div>
+            <div>Footer</div>
+        </nav>
+    </aside>
 
+        <section>
+            <header>
+                <h1>Griffins Kiptanui</h1>
+                <p><b><i>This is my story</i></b></p>
+            </header>
+        </section>
         <section id="card>
             <div class="card">
                 <img src="img/afrcian.boy.jpg" alt="African Boy" style="width: 100%;">
-            <div class="container">
+            <div class="card info">
                 <h2><b>Griffins</b></h2>
                 <p>A web developer learner</p>
             </div>
@@ -108,9 +91,27 @@
 
         <section>
             <div class="box">
-            <h2>Passion</h2>
-            <p>When passion meets Education</p>
-            <img src="img/african-kid.png" alt="Key to success">
+                <h2>Passion</h2>
+                <p>When passion meets Education</p>
+                <img src="img/african-kid.png" alt="Key to success">
+            </div>
+        </section>
+        
+        <section>
+            <h2>Myself</h2>
+            <div class="container">
+                <div class="column">
+                    <h2>My height</h2>
+                    <p>I am 5.7 ft tall</p>
+                </div>
+                <div class="column">
+                    <h2>My Age</h2>
+                    <p>I am turning 18.</p>
+                </div>
+                <div class="column">
+                    <h2>My Passion</h2>
+                    <p>I am passionate about technology.</p>
+                </div>
             </div>
         </section>
 
