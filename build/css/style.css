@@ -361,19 +361,16 @@ footer {
 }
 
 .item {
-  b
+  bottom: 0;
 }
 
 /* Animations */
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
+ opacity: 1;
   }
-
-  100% {
-    opacity: 1;
+  to {
+  opacity: 1;
   }
-}
 
 .fade-in {
   animation: fadeIn 0.5s ease-in-out;
