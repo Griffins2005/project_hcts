@@ -366,7 +366,7 @@ footer {
 
 /* Animations */
 @keyframes fadeIn {
- opacity: 1;
+ opacity: 0;
   }
   to {
   opacity: 1;
